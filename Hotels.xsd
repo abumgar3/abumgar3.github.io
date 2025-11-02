@@ -1,4 +1,4 @@
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://venus.sod.asu.edu/WSRepository/xml" targetNamespace="http://venus.sod.asu.edu/WSRepository/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://abumgar3.github.io" targetNamespace="http://abumgar3.github.io" elementFormDefault="qualified" attributeFormDefault="unqualified">>
   <xsd:element name="Hotels" type="HotelsType"/>
   <xsd:complexType name="HotelsType">
     <xsd:sequence>
@@ -31,13 +31,17 @@
   <xsd:simpleType name="RatingType">
     <xsd:restriction base="xsd:decimal">
       <minInclusive value="0">
+    </xsd:restriction>
+    <xsd:restriction base="xsd:decimal">
       <maxInclusive value="5">
+    </xsd:restriction>
+    <xsd:restriction base="xsd:decimal">
+      <totalDigits value="2">
     </xsd:restriction>
   </xsd:simpleType>
     <xsd:simpleType name="ZipType">
     <xsd:restriction base="xsd:positiveinteger">
-      <minInclusive value="10000">
-      <maxInclusive value="99999">
+      <totalDigits value="5">
     </xsd:restriction>
   </xsd:simpleType>
 </xsd:schema>
