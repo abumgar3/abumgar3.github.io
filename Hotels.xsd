@@ -30,18 +30,18 @@
   </xsd:simpleType>
   <xsd:simpleType name="RatingType">
     <xsd:restriction base="xsd:decimal">
-      <minInclusive value="0">
+      <minInclusive value="0"/>
     </xsd:restriction>
     <xsd:restriction base="xsd:decimal">
-      <maxInclusive value="5">
+      <maxInclusive value="5"/>
     </xsd:restriction>
     <xsd:restriction base="xsd:decimal">
-      <totalDigits value="2">
+      <totalDigits value="2"/>
     </xsd:restriction>
   </xsd:simpleType>
     <xsd:simpleType name="ZipType">
     <xsd:restriction base="xsd:positiveinteger">
-      <totalDigits value="5">
+      <totalDigits value="5"/>
     </xsd:restriction>
   </xsd:simpleType>
 </xsd:schema>
