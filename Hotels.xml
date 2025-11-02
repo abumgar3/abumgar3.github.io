@@ -1,47 +1,152 @@
 <Hotels xmlns="http://venus.sod.asu.edu/WSRepository/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Courses.xsd">
   <Hotel>
-    <Code Undergrad="CSE240"/>
-    <Name>Introduction to Programming Languages</Name>
-    <Instructor>
-      <Name>
-        <First>Calvin</First>
-        <Last>Cheng</Last>
-      </Name>
-      <Contact>
-        <Phone>480-965 1111</Phone>
-      </Contact>
-    </Instructor>
-    <Room>BYAC110</Room>
-    <cap>82</cap>
-  </Course>
-  <Course>
-    <Code Undergrad="CSE445" Graduate="CSE598"/>
-    <Name>Distributed Software Development</Name>
-    <Instructor>
-      <Name>
-        <First>Yinong</First>
-        <Last>Chen</Last>
-      </Name>
-      <Contact Office="BYENG414">
-        <Phone>480-965 2769</Phone>
-      </Contact>
-    </Instructor>
-    <Room>BYAC210</Room>
-    <cap>57</cap>
-  </Course>
-  <Course>
-    <Code Undergrad="CSE360"/>
-    <Name>Software Engineering</Name>
-    <Instructor>
-      <Name>
-        <First>James</First>
-        <Last>Collofello</Last>
-      </Name>
-      <Contact>
-        <Phone>480-965 0000</Phone>
-      </Contact>
-    </Instructor>
-    <Room>BYAC270</Room>
-    <cap>65</cap>
-  </Course>
-</Courses>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Marriott</Name>
+    <Phone>999-999-9999</Phone>
+    <Address>
+      <Number>2212</Number>
+      <Street>W. Forest Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85221</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Sunnyside</Name>
+    <Phone>324-432-1342</Phone>
+    <Phone>135-222-1234</Phone>
+    <Address>
+      <Number>999</Number>
+      <Street>N. San Angelo St</Street>
+      <City>Brookline</City>
+      <State>MA</State>
+      <Zip>22222</Zip>
+      <NearestAirport>Logan International</NearestAirport>
+    </Address>
+    <Rating>1.1</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Piedmont</Name>
+    <Phone>480-968-8885</Phone>
+    <Address>
+      <Number>123</Number>
+      <Street>S. 4th Ave</Street>
+      <City>Dallas</City>
+      <State>TX</State>
+      <Zip>12345</Zip>
+      <NearestAirport>Dallas Fort Worth</NearestAirport>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+</Hotels>
