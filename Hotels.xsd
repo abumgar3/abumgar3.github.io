@@ -1,4 +1,4 @@
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://abumgar3.github.io" targetNamespace="http://abumgar3.github.io" elementFormDefault="qualified" attributeFormDefault="unqualified">>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://abumgar3.github.io" targetNamespace="http://abumgar3.github.io" elementFormDefault="qualified" attributeFormDefault="unqualified">
   <xsd:element name="Hotels" type="HotelsType"/>
   <xsd:complexType name="HotelsType">
     <xsd:sequence>
